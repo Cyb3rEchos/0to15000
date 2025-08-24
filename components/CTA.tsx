@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import EmailSignup from './EmailSignup'
 
 export default function CTA() {
   return (
@@ -12,17 +13,7 @@ export default function CTA() {
             Join thousands of entrepreneurs who are building their presence and driving real business results.
           </p>
           
-          <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 mb-8">
-            <h3 className="text-2xl font-semibold text-white mb-4">
-              Get Started Today
-            </h3>
-            <p className="text-blue-100 mb-6">
-              Access our comprehensive tutorials and start your journey from 0 to 15,000 followers.
-            </p>
-            <button className="bg-white text-blue-600 px-8 py-4 rounded-full font-semibold text-lg hover:bg-gray-100 transition shadow-lg">
-              Launch Your Growth Journey
-            </button>
-          </div>
+          <EmailSignup />
           
           <p className="text-sm text-blue-100">
             No spam, no fluff. Just actionable strategies that work.
